@@ -29,6 +29,7 @@ body{
     border-radius: 10px;
     border: none;
     margin-left: 5px;
+    text-decoration: none;
 }
 #navbar-button-1{
     background-color: #83f8e5;
@@ -64,4 +65,45 @@ main section{
     display: flex;
     justify-content: space-evenly;
     margin-top: 5rem;
+}
+
+#cards-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3%;
+}
+.card-img{
+    position: relative;
+    text-align: center;
+    width: 40%;
+}
+.card-img img{
+    width: 100%;
+    border-radius: 100px;
+}
+.card-img-status{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 100%;
+    background-color: #70d8f1;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    justify-content: center;
+}
+.card{
+    display: flex;
+
+}
+main{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.card-info-bold{
+    font-weight: bold;
 }
